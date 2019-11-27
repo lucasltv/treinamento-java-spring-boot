@@ -1,0 +1,140 @@
+html {
+    /* 6.1.3 */
+    background-color: #00539F;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* 6.1.3 */
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid black;
+    background-color: #FF9500;
+    padding: 0px 20px 20px 20px;
+    /* tip */
+    box-sizing: border-box;
+}
+
+header {
+    /* 6.2.1 */
+    text-align: center;
+}
+
+nav {
+    /* 6.2.1 */
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+nav li {
+    /* 6.2.1 */
+    display: inline-block;
+}
+
+nav ul {
+    /* 6.2.1 */
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+
+.title-h1 {
+    /* 6.2.1 */
+    font-size: 30px;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+    padding: 20px 0px;
+}
+
+#ciandt-logo {
+    /* 6.3.1 */
+    display: block;
+    margin: 15px auto;
+    width: 450px;
+    height: auto;
+}
+
+section h2 {
+    /* 6.4.1 */
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+
+article h3 {
+    /* 6.4.2 */
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0px 5px 0px;
+    text-transform: capitalize;
+}
+
+article p {
+    /* 6.4.3 */
+    text-align: justify;
+    font-size: 10px;
+}
+
+footer {
+    /* 6.5 */
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    /* 6.5 */
+    font-size: 10px;
+}
+
+table,
+th,
+td {
+    /* 7.4 */
+    border: 1px solid black;
+}
+
+.main-table {
+    /* 7.4 */
+    width: 500px;
+    margin: auto;
+}
+
+td {
+    /* 7.4 */
+    text-align: center;
+}
+
+form {
+    /* 8.4 */
+    padding: 15px;
+}
+
+label {
+    /* 8.4 */
+    display: block;
+    text-align: left;
+}
+
+.field-group {
+    /* 8.4 */
+    display: block;
+    margin: 5px 0px;
+}
+
+input {
+    /* 8.4 */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#btn-submit {
+    /* 8.4 */
+    margin-top: 20px;
+}
+
+/* 10.3 */
+#removeBtn {
+    display: block;
+    margin: 0px auto;
+}
